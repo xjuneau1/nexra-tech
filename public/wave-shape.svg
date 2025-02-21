@@ -1,0 +1,24 @@
+<svg
+          width="100%"
+          height="100%"
+          preserveAspectRatio="none"
+          viewBox="0 0 600 300"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="waveRectGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop offset="0%" stop-color="#7F5AF0" stop-opacity="0.8" />
+              <stop offset="100%" stop-color="#53389E" stop-opacity="0.8" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M0 0 H600 V250 Q500 300, 300 250 T0 250 Z"
+            fill="url(#waveRectGradient)"
+          />
+        </svg>

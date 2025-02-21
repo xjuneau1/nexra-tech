@@ -1,0 +1,40 @@
+<svg
+  width="200"
+  height="60"
+  viewBox="0 0 200 60"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Stylized "NEXR" Text -->
+  <text
+    x="35"
+    y="38"
+    font-family="Arial, sans-serif"
+    font-size="28"
+    font-weight="bold"
+    fill="url(#textGradient)"
+    letter-spacing="2"
+  >
+    NEXR
+  </text>
+
+  <!-- Shorter and Narrower "A" Overlapping "R" -->
+  <path
+    d="M 118 38 L 130 15 L 142 38 M 123 28 L 137 28"
+    stroke="url(#iconGradient)"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a29bfe" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b6b" />
+      <stop offset="100%" stop-color="#a29bfe" />
+    </linearGradient>
+  </defs>
+</svg>
