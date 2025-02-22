@@ -31,7 +31,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-white text-lg font-bold">Nexra</h1>
+        <img src="/logo.svg" width={125} height={100} alt="Nexora Tech Logo" />
 
         {/* Desktop Links (Always Visible) */}
         <ul className="hidden md:flex space-x-6">
