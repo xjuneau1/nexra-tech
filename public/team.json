@@ -5,17 +5,20 @@
       {
         "name": "Ethan Vale",
         "role": "CEO & Founder",
-        "bio": "A visionary leader with a passion for AI and automation, Ethan founded Nexra Tech to push the boundaries of digital transformation. With over 15 years of experience in cloud computing and cybersecurity, he drives the company’s strategic growth."
+        "bio": "A visionary leader with a passion for AI and automation, Ethan founded Nexra Tech to push the boundaries of digital transformation. With over 15 years of experience in cloud computing and cybersecurity, he drives the company’s strategic growth.",
+        "img": "/EthanCEO.webp"
       },
       {
         "name": "Ava Sinclair",
         "role": "Head of Marketing",
-        "bio": "Ava spearheads Nexra’s marketing strategies, focusing on brand growth and digital presence. With a background in SaaS marketing, she crafts compelling campaigns that resonate with tech-driven businesses."
+        "bio": "Ava spearheads Nexra’s marketing strategies, focusing on brand growth and digital presence. With a background in SaaS marketing, she crafts compelling campaigns that resonate with tech-driven businesses.",
+        "img": "/AvaMarketing.webp"
       },
       {
         "name": "Emma Navarro",
         "role": "Client Success Manager",
-        "bio": "Emma bridges the gap between Nexra and its clients, ensuring seamless onboarding and ongoing support. Her focus is on customer satisfaction and long-term partnerships."
+        "bio": "Emma bridges the gap between Nexra and its clients, ensuring seamless onboarding and ongoing support. Her focus is on customer satisfaction and long-term partnerships.",
+        "img": ""
       }
     ]
   },
@@ -25,27 +28,32 @@
       {
         "name": "Sophia Lin",
         "role": "Chief Technology Officer (CTO)",
-        "bio": "An expert in software architecture and AI integration, Sophia oversees Nexra's technological advancements. She has a background in machine learning and enterprise software solutions, ensuring that Nexra remains at the forefront of innovation."
+        "bio": "An expert in software architecture and AI integration, Sophia oversees Nexra's technological advancements. She has a background in machine learning and enterprise software solutions, ensuring that Nexra remains at the forefront of innovation.",
+        "img": ""
       },
       {
         "name": "Noah Carter",
         "role": "Lead Software Engineer",
-        "bio": "A full-stack developer specializing in Next.js and React, Noah is responsible for building and optimizing Nexra’s platforms. He has a keen eye for performance, accessibility, and scalable design."
+        "bio": "A full-stack developer specializing in Next.js and React, Noah is responsible for building and optimizing Nexra’s platforms. He has a keen eye for performance, accessibility, and scalable design.",
+        "img": ""
       },
       {
         "name": "Jordan Patel",
         "role": "Frontend Developer",
-        "bio": "Jordan transforms designs into high-performance web experiences. With expertise in Tailwind CSS and motion UI, he ensures Nexra’s websites and apps are engaging and responsive."
+        "bio": "Jordan transforms designs into high-performance web experiences. With expertise in Tailwind CSS and motion UI, he ensures Nexra’s websites and apps are engaging and responsive.",
+        "img": ""
       },
       {
         "name": "Maya Rios",
         "role": "DevOps Engineer",
-        "bio": "Maya ensures seamless deployment and infrastructure stability. With expertise in CI/CD pipelines, cloud security, and Kubernetes, she streamlines operations to keep Nexra's services running smoothly."
+        "bio": "Maya ensures seamless deployment and infrastructure stability. With expertise in CI/CD pipelines, cloud security, and Kubernetes, she streamlines operations to keep Nexra's services running smoothly.",
+        "img": ""
       },
       {
         "name": "Darren Holt",
         "role": "AI & Automation Engineer",
-        "bio": "Passionate about AI-driven efficiency, Darren works on integrating intelligent automation solutions into Nexra’s offerings. He specializes in natural language processing and predictive analytics."
+        "bio": "Passionate about AI-driven efficiency, Darren works on integrating intelligent automation solutions into Nexra’s offerings. He specializes in natural language processing and predictive analytics.",
+        "img": ""
       }
     ]
   },
@@ -55,7 +63,8 @@
       {
         "name": "Lena Kwan",
         "role": "UX/UI Designer",
-        "bio": "A creative force behind Nexra’s digital experiences, Lena focuses on intuitive user interfaces and modern aesthetics. She blends design psychology with cutting-edge visuals to enhance usability."
+        "bio": "A creative force behind Nexra’s digital experiences, Lena focuses on intuitive user interfaces and modern aesthetics. She blends design psychology with cutting-edge visuals to enhance usability.",
+        "img": ""
       }
     ]
   },
@@ -65,12 +74,14 @@
       {
         "name": "Leo Ramirez",
         "role": "SEO & Content Strategist",
-        "bio": "A master of search engine optimization, Leo ensures Nexra’s online visibility. He creates high-quality, engaging content to drive organic traffic and boost brand authority."
+        "bio": "A master of search engine optimization, Leo ensures Nexra’s online visibility. He creates high-quality, engaging content to drive organic traffic and boost brand authority.",
+        "img": ""
       },
       {
         "name": "Riley Chen",
         "role": "Cybersecurity Consultant",
-        "bio": "With a background in ethical hacking and data protection, Riley helps businesses safeguard their digital assets through Nexra’s security solutions."
+        "bio": "With a background in ethical hacking and data protection, Riley helps businesses safeguard their digital assets through Nexra’s security solutions.",
+        "img": ""
       }
     ]
   }

@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+
+import { Inter } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import Image from "next/image";
 import Footer from "./components/footer/Footer";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
+
+const inter = Inter({ subsets: ["latin"], weight: ["400", "700"] });
+
 
 export const metadata: Metadata = {
   title: "Nexra Tech | AI & Web Solutions",
@@ -27,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} relative antialiased overflow-x-hidden`}
+        className={`${inter.className} relative antialiased overflow-x-hidden`}
       >
         <div className="fixed inset-0 -z-10 h-full w-full">
           <Image

@@ -1,4 +1,4 @@
-export default function About() {
+export default function Promise() {
   return (
     <div className="col-span-2 mt-16">
       <div
@@ -11,7 +11,7 @@ export default function About() {
         <div className="relative z-10 max-w-4xl mx-auto text-center text-white px-6">
           {/* Section Title */}
           <h2 className="text-5xl font-bold text-[#a29bfe]">Our Promise</h2>
-          <p className="mt-4 text-lg md:text-xl font-semibold leading-relaxed">
+          <p className="mt-4 text-xl md:text-2xl font-semibold">
             At Nexra, we are committed to delivering <span className="text-[#f1c40f]">cutting-edge technology
             solutions</span> that empower businesses to succeed. Our team of experts
             work tirelessly to ensure that every product and service we offer

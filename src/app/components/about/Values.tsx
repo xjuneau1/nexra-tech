@@ -1,4 +1,4 @@
-export default function Mission() {
+export default function Values() {
   const values = [
     {
       name: "Innovation at the Core",
@@ -17,13 +17,10 @@ export default function Mission() {
     <div
   className="col-span-2"
 >
-  {/* Background gradient overlay */}
-  <div className="absolute inset-0"></div>
-
   {/* Content Container */}
-  <div className="relative flex flex-col items-center justify-center max-w-4xl mx-auto mt-16 p-2">
+  <div className="flex flex-col items-center justify-center max-w-4xl mx-auto mt-16 p-2">
     {/* Section Title */}
-    <h2 className="text-5xl font-bold text-[#f1c40f] tracking-wide">
+    <h2 className="text-5xl font-bold text-[#f1c40f] tracking-wide [text-shadow:_1px_3px_1px_rgb(0_0_0_/_40%)]">
       Our Values
     </h2>
 
@@ -32,7 +29,7 @@ export default function Mission() {
       {values.map((value) => (
         <div
           key={value.name}
-          className="relative p-6 rounded-xl border border-[#a29bfe] shadow-[0_0_15px_rgba(162,155,254,0.3)] backdrop-blur-sm bg-black/40"
+          className="relative text-center p-6 rounded-xl border border-[#a29bfe] shadow-[0_0_15px_rgba(162,155,254,0.3)] backdrop-blur-sm bg-black/40"
         >
           {/* Value Title */}
           <h3 className="text-xl font-semibold text-[#a29bfe] mb-2">
