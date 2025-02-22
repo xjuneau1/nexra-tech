@@ -1,16 +1,11 @@
 interface NavlinksProps {
     links: string[];
     isMenuOpen: boolean;
+    handleGetHref: Function
   }
   
-  const Navlinks: React.FC<NavlinksProps> = ({ links, isMenuOpen }) => {
-    const handleGetHref = (link: string) => {
-      if (link === "Home") {
-        return "/";
-      } else {
-        return link.toLowerCase()
-      }
-    };
+  const Navlinks: React.FC<NavlinksProps> = ({ links, isMenuOpen, handleGetHref }) => {
+    
     return (
         <ul
         className={`md:hidden bg-gray-800 transition-all duration-300 ${
@@ -25,15 +20,6 @@ interface NavlinksProps {
           </li>
         ))}
       </ul>
-    //   <ul className="flex flex-col md:flex-row items-center justify-center w-full p-8">
-    //     {links.map((link, index) => {
-    //       return (
-    //         <li key={index} className="text-white mx-4">
-    //           <a href={handleGetHref(link)} className="block p-2">{link}</a>
-    //         </li>
-    //       );
-    //     })}
-    //   </ul>
     );
   };
   

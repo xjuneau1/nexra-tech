@@ -55,7 +55,7 @@ export default function Navbar() {
           {isMenuOpen ? <ChevronUp size={24} /> : <ChevronDown size={24} />}
         </button>
       </div>
-      <Navlinks isMenuOpen={isMenuOpen} links={links} />
+      <Navlinks isMenuOpen={isMenuOpen} links={links} handleGetHref={handleGetHref} />
     </nav>
   );
 }

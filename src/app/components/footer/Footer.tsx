@@ -1,4 +1,12 @@
 export default function Footer() {
+  const links = ["Home", "About", "Services", "Contact", "FAQ"];
+  const handleGetHref = (link: string) => {
+    if (link === "Home") {
+      return "/";
+    } else {
+      return link.toLowerCase()
+    }
+  };
   return (
     <div className="col-span-2 w-full h-full">
       <footer className="bg-gradient-to-r from-[#0a0f1f] to-[#1a1f36] text-white py-10">
@@ -13,48 +21,22 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-xl font-semibold text-blue-400">Quick Links</h3>
-            <ul className="mt-2 space-y-2">
-              <li>
-                <a href="#" className="hover:text-purple-300 transition">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-purple-300 transition">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-purple-300 transition">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-purple-300 transition">
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ul
+        className="flex flex-col w-full items-center"> <div className="text-xl font-semibold text-blue-400">Quick Links</div> 
+        {links.map((link, index) => (
+          <li key={index} className="text-gray-400 mt-2 text-center">
+            <a href={handleGetHref(link)} className="">
+              {link}
+            </a>
+          </li>
+        ))}
+      </ul>
 
           {/* Social Media & Contact */}
           <div>
             <h3 className="text-xl font-semibold text-blue-400">
               Connect with Us
             </h3>
-            <div className="flex justify-center md:justify-start space-x-4 mt-2">
-              <a href="#" className="hover:text-purple-300 transition">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#" className="hover:text-purple-300 transition">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#" className="hover:text-purple-300 transition">
-                <i className="fab fa-github"></i>
-              </a>
-            </div>
             <p className="text-gray-400 mt-3">contact@nexra.com</p>
           </div>
         </div>
