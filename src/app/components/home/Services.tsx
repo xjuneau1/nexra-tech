@@ -34,21 +34,25 @@ export default function Services() {
   
   
   return (
-    <div className="col-span-2 p-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-2 w-full h-full">
+    <div className="col-span-2 p-2 my-16 md:p-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 w-full h-full">
         {services.map((service, index) => (
           <div
             key={index}
             className="flex flex-col w-full justify-center items-center 
             col-span-1 
             bg-white border rounded-lg
-            p-8
+            p-12
+            bg-gradient-to-br from-[#1a1a40] to-[#3a0ca3] border border-[#2a2a70] 
+            text-white
             "
           >
-            <h2>{service.name}</h2>
+            <h2 className="font-semibold text-2xl font-bold text-[#a29bfe] text-center mb-4">{service.name}</h2>
+            <ul className="list-disc">
             {service.info.map((info, index) => (
-              <p key={index}>{info}</p>
+              <li key={index}>{info}</li>
             ))}
+            </ul>
           </div>
         ))}
       </div>

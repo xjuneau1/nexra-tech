@@ -46,7 +46,7 @@ export default function Reviews() {
                   {"★".repeat(review.rating)}
                 </span>
               </div>
-              <p className="text-lg leading-relaxed text-gray-300">
+              <p className="text-lg text-gray-300">
                 "{review.review}"
               </p>
               <div className="mt-4 text-[#a29bfe] font-semibold">

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="col-span-2">
+    <div className="col-span-2 mt-16">
       <div
         className="relative bg-cover bg-center py-32"
         style={{ backgroundImage: "url('/about-bg.png')" }}

@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="col-span-2 relative min-h-[400px] sm:min-h-[400px] md:min-h-[500px]">
+    <div className="col-span-2 relative min-h-[400px] sm:min-h-[400px] md:min-h-[500px] mt-16">
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center -z-10"
         style={{ backgroundImage: "url('/wave-shape.svg')" }}
